@@ -1,0 +1,8 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://6fxodfgct1s"]
+
+[ext_resource type="FontFile" uid="uid://c047286rotixp" path="res://assets/ui/SuperNormal-xRoj5.ttf" id="1_voisn"]
+
+[resource]
+default_font = ExtResource("1_voisn")
+default_font_size = 32
+/fonts/Default = ExtResource("1_voisn")

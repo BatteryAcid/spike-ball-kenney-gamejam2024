@@ -1,0 +1,34 @@
+[gd_resource type="AnimationLibrary" load_steps=15 format=3 uid="uid://cxtmckdliw2iw"]
+
+[ext_resource type="Animation" uid="uid://ce3mpn4vdfgth" path="res://assets/models/kenny-models/animations/walk.res" id="1_jxxwh"]
+[ext_resource type="Animation" uid="uid://b3y14m1xjxvbp" path="res://assets/models/kenny-models/animations/run.res" id="2_huldj"]
+[ext_resource type="Animation" uid="uid://blqkrra2qd4rn" path="res://assets/models/kenny-models/animations/idle.res" id="3_rcnv5"]
+[ext_resource type="Animation" uid="uid://c8rn7pbrcda7y" path="res://assets/models/kenny-models/animations/jump.res" id="4_4tqxa"]
+[ext_resource type="Animation" uid="uid://bi2xtc4g6q0q3" path="res://assets/models/kenny-models/animations/attack.res" id="5_y0pwb"]
+[ext_resource type="Animation" uid="uid://dx4ykgdqxr45q" path="res://assets/models/kenny-models/animations/crouch.res" id="6_j1cig"]
+[ext_resource type="Animation" uid="uid://concbrlcfxwnj" path="res://assets/models/kenny-models/animations/crouch_idle.res" id="7_j6mei"]
+[ext_resource type="Animation" uid="uid://d34bfksixvyn1" path="res://assets/models/kenny-models/animations/crouch_walk.res" id="8_xu7te"]
+[ext_resource type="Animation" uid="uid://c4r407bgu0ekb" path="res://assets/models/kenny-models/animations/death.res" id="9_kv16w"]
+[ext_resource type="Animation" uid="uid://dhwu5niaqqxxu" path="res://assets/models/kenny-models/animations/interact_ground.res" id="10_aoihk"]
+[ext_resource type="Animation" uid="uid://bpxl5um68uk6o" path="res://assets/models/kenny-models/animations/interact_standing.res" id="11_ygi2j"]
+[ext_resource type="Animation" uid="uid://n8es6bg6nu46" path="res://assets/models/kenny-models/animations/kick.res" id="12_ywkvv"]
+[ext_resource type="Animation" uid="uid://bpj68carwlmla" path="res://assets/models/kenny-models/animations/punch.res" id="13_sedoi"]
+[ext_resource type="Animation" uid="uid://c0uieg7xy0upm" path="res://assets/models/kenny-models/animations/shoot.res" id="14_lfj3e"]
+
+[resource]
+_data = {
+"attack": ExtResource("5_y0pwb"),
+"crouch": ExtResource("6_j1cig"),
+"crouch_idle": ExtResource("7_j6mei"),
+"crouch_walk": ExtResource("8_xu7te"),
+"death": ExtResource("9_kv16w"),
+"idle": ExtResource("3_rcnv5"),
+"interact_ground": ExtResource("10_aoihk"),
+"interact_standing": ExtResource("11_ygi2j"),
+"jump": ExtResource("4_4tqxa"),
+"kick": ExtResource("12_ywkvv"),
+"punch": ExtResource("13_sedoi"),
+"run": ExtResource("2_huldj"),
+"shoot": ExtResource("14_lfj3e"),
+"walk": ExtResource("1_jxxwh")
+}
