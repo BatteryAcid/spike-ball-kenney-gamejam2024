@@ -63,6 +63,6 @@ func show_loading():
 	add_child(_active_loading_scene)
 	
 func hide_loading():
-	if _active_loading_scene:
+	if _active_loading_scene != null:
 		remove_child(_active_loading_scene)
 		_active_loading_scene.queue_free()

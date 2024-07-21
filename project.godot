@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="godot-level-making"
+config/name="SpikeBall"
 run/main_scene="res://scenes/start.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 boot_splash/image="res://splash_screen.png"
@@ -26,6 +26,7 @@ Activities="*res://scripts/activities.gd"
 
 window/size/viewport_width=2560
 window/size/viewport_height=1440
+window/size/mode=2
 window/size/always_on_top=true
 
 [input]

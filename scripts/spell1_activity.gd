@@ -6,12 +6,13 @@ extends Node3D
 const ACTIVITY_ID: int = 2
 
 @export var component_spawn_point: Node3D
+@export var ttl: float = 3.0 
+@export var component_force: float = 500
 
 var _requester: int = -1 # TODO: for now we use network id, later probably player id
 var _attack_origin_raycast: RayCast3D
 var _component_scene = preload("res://scenes/player/activity/components/spell1_component.tscn")
 var _component: RigidBody3D
-var _ttl: float = 2.0 
 
 # TODO: probably pull these from a queue
 
@@ -19,10 +20,10 @@ func launch_activity():
 	var target_global = _attack_origin_raycast.global_transform * _attack_origin_raycast.target_position
 	var cast_dir = (target_global - _component.global_position).normalized()
 	
-	_component.apply_force(500 * cast_dir)
+	_component.apply_force(component_force * cast_dir)
 
 func mark_active():
-	_component.init(_ttl, name, ACTIVITY_ID)
+	_component.init(ttl, name, ACTIVITY_ID)
 	launch_activity()
 	
 	_component = null
