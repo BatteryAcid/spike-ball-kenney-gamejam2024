@@ -13,7 +13,7 @@ const CAMERA_UP_DOWN_MOVEMENT = -1
 var running = 0
 
 func _ready():
-	#Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	
 	# TODO: this works, but consider a better approach
 	if multiplayer.get_unique_id() == str(get_parent().name).to_int():

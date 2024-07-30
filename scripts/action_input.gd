@@ -9,7 +9,8 @@ class_name ActionInput extends Node
 
 var _keybinding_activity_map: Dictionary = {
 	"q": 1,
-	"e": 2
+	"e": 2,
+	"r": 3
 }
 
 var _activity_handler: ActivityHandler

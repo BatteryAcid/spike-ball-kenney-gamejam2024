@@ -66,3 +66,6 @@ func init(animation_player: AnimationPlayer):
 		_animation_player.active = true
 	else:
 		_animation_player.active = false
+
+func stop_animations():
+	_animation_player.stop()
