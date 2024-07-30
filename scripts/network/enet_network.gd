@@ -1,7 +1,7 @@
 extends Node
 
 const SERVER_PORT = 8080
-const SERVER_IP = "ec2-54-83-88-144.compute-1.amazonaws.com"#"127.0.0.1"
+const SERVER_IP = "127.0.0.1"
 
 func create_server_peer():
 	var _enet_network_peer: ENetMultiplayerPeer = ENetMultiplayerPeer.new()
